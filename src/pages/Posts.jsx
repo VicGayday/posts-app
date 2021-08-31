@@ -54,9 +54,9 @@ function Posts() {
 
   return (
     <div className="App">
-      <button type="button" onClick={getPosts}>
+      <MyButton onClick={getPosts}>
         GET POSTS
-      </button>
+      </MyButton>
       <MyButton style={{ marginTop: "30px" }} onClick={() => setModal(true)}>
         Add new User
       </MyButton>
